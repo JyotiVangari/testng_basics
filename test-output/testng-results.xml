@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T23:47:10 IST" name="Default suite" finished-at="2022-10-10T23:47:11 IST" duration-ms="483">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T23:47:10 IST" name="Default test" finished-at="2022-10-10T23:47:11 IST" duration-ms="483">
+      <class name="Firstpackage.NewTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Firstpackage.NewTest@1df8da7a]" started-at="2022-10-10T23:47:10 IST" name="beforeMethod" finished-at="2022-10-10T23:47:10 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f1()[pri:0, instance:Firstpackage.NewTest@1df8da7a]" started-at="2022-10-10T23:47:10 IST" name="f1" finished-at="2022-10-10T23:47:10 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Firstpackage.NewTest@1df8da7a]" started-at="2022-10-10T23:47:10 IST" name="afterMethod" finished-at="2022-10-10T23:47:11 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Firstpackage.NewTest@1df8da7a]" started-at="2022-10-10T23:47:11 IST" name="beforeMethod" finished-at="2022-10-10T23:47:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f2()[pri:0, instance:Firstpackage.NewTest@1df8da7a]" started-at="2022-10-10T23:47:11 IST" name="f2" finished-at="2022-10-10T23:47:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Firstpackage.NewTest@1df8da7a]" started-at="2022-10-10T23:47:11 IST" name="afterMethod" finished-at="2022-10-10T23:47:11 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Firstpackage.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

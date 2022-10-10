@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Loan Department(failed)">
+    <classes>
+      <class name="Firstpackage.TestNG">
+        <methods>
+          <include name="Demo3"/>
+          <include name="Demo1"/>
+          <include name="Demo2"/>
+        </methods>
+      </class> <!-- Firstpackage.TestNG -->
+    </classes>
+  </test> <!-- Loan Department(failed) -->
+</suite> <!-- Failed suite [Loan] -->

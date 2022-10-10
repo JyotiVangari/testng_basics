@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+
+<parameter name="URL" value="https://google.com"></parameter>
+<parameter name="Pass" value="No idea"></parameter>
+  
+<test name="Params">
+
+<groups>
+<run>
+<include name="smoke"></include>
+</run>
+
+</groups>
+<classes>
+<class name="Firstpackage.TestNG"></class>
+<class name="Firstpackage.Personal_Loan">
+<methods> <include name="P_SignOut1111"></include>
+</methods>
+
+</class>
+<class name="Firstpackage.Car_Loan"></class>
+</classes>
+</test>
+
+  
+</suite> <!-- Suite -->

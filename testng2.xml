@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+  <test name="Loan Department">
+  <classes>
+  <class name="Firstpackage.TestNG"/>
+   <class name="Firstpackage.Personal_Loan"></class>
+    
+  </classes>
+  
+  </test> <!-- Test -->
+  
+  <test name= "AdvanceLoan_department">
+  <classes>
+  <class name="Firstpackage.Home_Loan"></class>
+     <class name="Firstpackage.Car_Loan"></class>
+  </classes>
+  
+  </test>
+  
+</suite> <!-- Suite -->
